@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3655DB40261A93B300A0577B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3655DB3E261A93B300A0577B /* Main.storyboard */; };
+		3655DB48261A93FB00A0577B /* AcoountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3655DB47261A93FB00A0577B /* AcoountViewController.swift */; };
+		3655DB4D261A940000A0577B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3655DB4C261A940000A0577B /* MainViewController.swift */; };
 		366FBC9E261A1D9800D648C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBC9D261A1D9800D648C9 /* AppDelegate.swift */; };
 		366FBCA0261A1D9800D648C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBC9F261A1D9800D648C9 /* SceneDelegate.swift */; };
 		366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCA1261A1D9800D648C9 /* ViewController.swift */; };
-		366FBCA5261A1D9800D648C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366FBCA3261A1D9800D648C9 /* Main.storyboard */; };
 		366FBCA7261A1D9800D648C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366FBCA6261A1D9800D648C9 /* Assets.xcassets */; };
 		366FBCAA261A1D9800D648C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */; };
 		366FBCB5261A1D9800D648C9 /* Kakaotalk_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCB4261A1D9800D648C9 /* Kakaotalk_CloneTests.swift */; };
@@ -35,11 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3655DB3F261A93B300A0577B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../xcode/KakaoTalk/KakaoTalk/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3655DB47261A93FB00A0577B /* AcoountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AcoountViewController.swift; path = ../../../xcode/KakaoTalk/KakaoTalk/AcoountViewController.swift; sourceTree = "<group>"; };
+		3655DB4C261A940000A0577B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../xcode/KakaoTalk/KakaoTalk/MainViewController.swift; sourceTree = "<group>"; };
 		366FBC9A261A1D9800D648C9 /* Kakaotalk_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kakaotalk_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		366FBC9D261A1D9800D648C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		366FBC9F261A1D9800D648C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		366FBCA1261A1D9800D648C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		366FBCA4261A1D9800D648C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		366FBCA6261A1D9800D648C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366FBCA9261A1D9800D648C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366FBCAB261A1D9800D648C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,9 +106,11 @@
 				366FBC9D261A1D9800D648C9 /* AppDelegate.swift */,
 				366FBC9F261A1D9800D648C9 /* SceneDelegate.swift */,
 				366FBCA1261A1D9800D648C9 /* ViewController.swift */,
-				366FBCA3261A1D9800D648C9 /* Main.storyboard */,
+				3655DB3E261A93B300A0577B /* Main.storyboard */,
+				3655DB47261A93FB00A0577B /* AcoountViewController.swift */,
 				366FBCA6261A1D9800D648C9 /* Assets.xcassets */,
 				366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */,
+				3655DB4C261A940000A0577B /* MainViewController.swift */,
 				366FBCAB261A1D9800D648C9 /* Info.plist */,
 			);
 			path = Kakaotalk_Clone;
@@ -233,7 +239,7 @@
 			files = (
 				366FBCAA261A1D9800D648C9 /* LaunchScreen.storyboard in Resources */,
 				366FBCA7261A1D9800D648C9 /* Assets.xcassets in Resources */,
-				366FBCA5261A1D9800D648C9 /* Main.storyboard in Resources */,
+				3655DB40261A93B300A0577B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +266,9 @@
 			files = (
 				366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */,
 				366FBC9E261A1D9800D648C9 /* AppDelegate.swift in Sources */,
+				3655DB48261A93FB00A0577B /* AcoountViewController.swift in Sources */,
 				366FBCA0261A1D9800D648C9 /* SceneDelegate.swift in Sources */,
+				3655DB4D261A940000A0577B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +304,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		366FBCA3261A1D9800D648C9 /* Main.storyboard */ = {
+		3655DB3E261A93B300A0577B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				366FBCA4261A1D9800D648C9 /* Base */,
+				3655DB3F261A93B300A0577B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
