@@ -18,6 +18,12 @@
 		366FBCAA261A1D9800D648C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */; };
 		366FBCB5261A1D9800D648C9 /* Kakaotalk_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCB4261A1D9800D648C9 /* Kakaotalk_CloneTests.swift */; };
 		366FBCC0261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCBF261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift */; };
+		3680319E2626F6DD00C07E87 /* Freinds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3680319D2626F6DD00C07E87 /* Freinds.storyboard */; };
+		368031A32626F8AE00C07E87 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031A22626F8AE00C07E87 /* Chat.storyboard */; };
+		368031A82626F8B900C07E87 /* HashTag.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031A72626F8B900C07E87 /* HashTag.storyboard */; };
+		368031AD2626F8C500C07E87 /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031AC2626F8C500C07E87 /* Store.storyboard */; };
+		368031B22626F8CF00C07E87 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031B12626F8CF00C07E87 /* Setting.storyboard */; };
+		368031B72626FBE100C07E87 /* FreindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368031B62626FBE100C07E87 /* FreindsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		366FBCBB261A1D9800D648C9 /* Kakaotalk_CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kakaotalk_CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366FBCBF261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakaotalk_CloneUITests.swift; sourceTree = "<group>"; };
 		366FBCC1261A1D9800D648C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3680319D2626F6DD00C07E87 /* Freinds.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Freinds.storyboard; sourceTree = "<group>"; };
+		368031A22626F8AE00C07E87 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		368031A72626F8B900C07E87 /* HashTag.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HashTag.storyboard; sourceTree = "<group>"; };
+		368031AC2626F8C500C07E87 /* Store.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Store.storyboard; sourceTree = "<group>"; };
+		368031B12626F8CF00C07E87 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		368031B62626FBE100C07E87 /* FreindsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +122,17 @@
 				366FBC9F261A1D9800D648C9 /* SceneDelegate.swift */,
 				366FBCA1261A1D9800D648C9 /* ViewController.swift */,
 				36126F16261DCDD6002535C6 /* Main.storyboard */,
+				3680319D2626F6DD00C07E87 /* Freinds.storyboard */,
 				36126F0E261DCD4B002535C6 /* MainViewController.swift */,
 				36126F09261DCD42002535C6 /* AcoountViewController.swift */,
 				366FBCA6261A1D9800D648C9 /* Assets.xcassets */,
 				366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */,
 				366FBCAB261A1D9800D648C9 /* Info.plist */,
+				368031A22626F8AE00C07E87 /* Chat.storyboard */,
+				368031A72626F8B900C07E87 /* HashTag.storyboard */,
+				368031AC2626F8C500C07E87 /* Store.storyboard */,
+				368031B12626F8CF00C07E87 /* Setting.storyboard */,
+				368031B62626FBE100C07E87 /* FreindsViewController.swift */,
 			);
 			path = Kakaotalk_Clone;
 			sourceTree = "<group>";
@@ -240,9 +258,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3680319E2626F6DD00C07E87 /* Freinds.storyboard in Resources */,
+				368031A82626F8B900C07E87 /* HashTag.storyboard in Resources */,
 				366FBCAA261A1D9800D648C9 /* LaunchScreen.storyboard in Resources */,
 				366FBCA7261A1D9800D648C9 /* Assets.xcassets in Resources */,
+				368031A32626F8AE00C07E87 /* Chat.storyboard in Resources */,
+				368031AD2626F8C500C07E87 /* Store.storyboard in Resources */,
 				36126F17261DCDD6002535C6 /* Main.storyboard in Resources */,
+				368031B22626F8CF00C07E87 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +293,7 @@
 				36126F0F261DCD4B002535C6 /* MainViewController.swift in Sources */,
 				366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */,
 				36126F0A261DCD42002535C6 /* AcoountViewController.swift in Sources */,
+				368031B72626FBE100C07E87 /* FreindsViewController.swift in Sources */,
 				36126F02261DCD38002535C6 /* AccountCorrectViewController.swift in Sources */,
 				366FBC9E261A1D9800D648C9 /* AppDelegate.swift in Sources */,
 				366FBCA0261A1D9800D648C9 /* SceneDelegate.swift in Sources */,

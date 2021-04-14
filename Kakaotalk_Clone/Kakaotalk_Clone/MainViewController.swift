@@ -20,10 +20,9 @@ class MainViewController: UIViewController {
     @IBAction func LoginButton(_ sender: Any) {
         if EmailPhoneNumber.text != "" && PassWord.text != ""
         {
-        guard let nextCA = self.storyboard?.instantiateViewController(identifier: "AccountCorrectViewController")
-                as? AccountCorrectViewController else{return}
-        nextCA.UsEmail = EmailPhoneNumber.text
-        self.present(nextCA, animated:true, completion: nil)
+        guard let nextCA = self.storyboard?.instantiateViewController(identifier: "FreindsViewController")
+                as? FreindsViewController else{return}
+            self.navigationController?.pushViewController(nextCA, animated: true)
         }
         }
     @IBAction func NewAccount(_ sender: Any) {
