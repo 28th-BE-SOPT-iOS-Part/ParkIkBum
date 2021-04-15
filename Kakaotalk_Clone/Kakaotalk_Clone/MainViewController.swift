@@ -8,6 +8,7 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    let freindsMainStoryboard = UIStoryboard(name: "FreindsMain", bundle: nil)
     @IBOutlet weak var EmailPhoneNumber: UITextField!
     @IBOutlet weak var PassWord: UITextField!
     var LoginEmail : String?
@@ -20,8 +21,8 @@ class MainViewController: UIViewController {
     @IBAction func LoginButton(_ sender: Any) {
         if EmailPhoneNumber.text != "" && PassWord.text != ""
         {
-        guard let nextCA = self.storyboard?.instantiateViewController(identifier: "FreindsViewController")
-                as? FreindsViewController else{return}
+        guard let nextCA = freindsMainStoryboard.instantiateViewController(identifier: "MainTabBarController")
+                as? MainTabBarController else{return}
             self.navigationController?.pushViewController(nextCA, animated: true)
         }
         }

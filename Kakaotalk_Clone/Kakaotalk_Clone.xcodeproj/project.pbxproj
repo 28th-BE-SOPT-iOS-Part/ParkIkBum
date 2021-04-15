@@ -11,6 +11,8 @@
 		36126F0A261DCD42002535C6 /* AcoountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36126F09261DCD42002535C6 /* AcoountViewController.swift */; };
 		36126F0F261DCD4B002535C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36126F0E261DCD4B002535C6 /* MainViewController.swift */; };
 		36126F17261DCDD6002535C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36126F16261DCDD6002535C6 /* Main.storyboard */; };
+		3628331B262801B600586852 /* Freinds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3628331A262801B600586852 /* Freinds.storyboard */; };
+		362833202628021300586852 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3628331F2628021300586852 /* Chat.storyboard */; };
 		366FBC9E261A1D9800D648C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBC9D261A1D9800D648C9 /* AppDelegate.swift */; };
 		366FBCA0261A1D9800D648C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBC9F261A1D9800D648C9 /* SceneDelegate.swift */; };
 		366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCA1261A1D9800D648C9 /* ViewController.swift */; };
@@ -18,12 +20,14 @@
 		366FBCAA261A1D9800D648C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */; };
 		366FBCB5261A1D9800D648C9 /* Kakaotalk_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCB4261A1D9800D648C9 /* Kakaotalk_CloneTests.swift */; };
 		366FBCC0261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCBF261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift */; };
-		3680319E2626F6DD00C07E87 /* Freinds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3680319D2626F6DD00C07E87 /* Freinds.storyboard */; };
-		368031A32626F8AE00C07E87 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031A22626F8AE00C07E87 /* Chat.storyboard */; };
-		368031A82626F8B900C07E87 /* HashTag.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031A72626F8B900C07E87 /* HashTag.storyboard */; };
-		368031AD2626F8C500C07E87 /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031AC2626F8C500C07E87 /* Store.storyboard */; };
-		368031B22626F8CF00C07E87 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368031B12626F8CF00C07E87 /* Setting.storyboard */; };
-		368031B72626FBE100C07E87 /* FreindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368031B62626FBE100C07E87 /* FreindsViewController.swift */; };
+		36E610862628092A00A934FB /* FreindsMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E610852628092A00A934FB /* FreindsMain.storyboard */; };
+		36E6108E26280C5300A934FB /* FreindsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6108D26280C5300A934FB /* FreindsMainViewController.swift */; };
+		36E72AC4262819F1007FD2FA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E72AC3262819F1007FD2FA /* MainTabBarController.swift */; };
+		36E72AD826281E7C007FD2FA /* HashTag.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E72AD726281E7C007FD2FA /* HashTag.storyboard */; };
+		36E72ADD26281E84007FD2FA /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E72ADC26281E84007FD2FA /* Store.storyboard */; };
+		36E72AE226281E90007FD2FA /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E72AE126281E90007FD2FA /* Setting.storyboard */; };
+		36E72AEA2628289C007FD2FA /* FreindsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E72AE92628289C007FD2FA /* FreindsViewController.swift */; };
+		36E72AF22628297F007FD2FA /* FreindsMyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E72AF12628297F007FD2FA /* FreindsMyProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,8 @@
 		36126F09261DCD42002535C6 /* AcoountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcoountViewController.swift; sourceTree = "<group>"; };
 		36126F0E261DCD4B002535C6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		36126F16261DCDD6002535C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3628331A262801B600586852 /* Freinds.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Freinds.storyboard; sourceTree = "<group>"; };
+		3628331F2628021300586852 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		366FBC9A261A1D9800D648C9 /* Kakaotalk_Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kakaotalk_Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		366FBC9D261A1D9800D648C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		366FBC9F261A1D9800D648C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,12 +67,14 @@
 		366FBCBB261A1D9800D648C9 /* Kakaotalk_CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kakaotalk_CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366FBCBF261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakaotalk_CloneUITests.swift; sourceTree = "<group>"; };
 		366FBCC1261A1D9800D648C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3680319D2626F6DD00C07E87 /* Freinds.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Freinds.storyboard; sourceTree = "<group>"; };
-		368031A22626F8AE00C07E87 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
-		368031A72626F8B900C07E87 /* HashTag.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HashTag.storyboard; sourceTree = "<group>"; };
-		368031AC2626F8C500C07E87 /* Store.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Store.storyboard; sourceTree = "<group>"; };
-		368031B12626F8CF00C07E87 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
-		368031B62626FBE100C07E87 /* FreindsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsViewController.swift; sourceTree = "<group>"; };
+		36E610852628092A00A934FB /* FreindsMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FreindsMain.storyboard; sourceTree = "<group>"; };
+		36E6108D26280C5300A934FB /* FreindsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsMainViewController.swift; sourceTree = "<group>"; };
+		36E72AC3262819F1007FD2FA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		36E72AD726281E7C007FD2FA /* HashTag.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HashTag.storyboard; sourceTree = "<group>"; };
+		36E72ADC26281E84007FD2FA /* Store.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Store.storyboard; sourceTree = "<group>"; };
+		36E72AE126281E90007FD2FA /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		36E72AE92628289C007FD2FA /* FreindsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsViewController.swift; sourceTree = "<group>"; };
+		36E72AF12628297F007FD2FA /* FreindsMyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsMyProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362833192628019900586852 /* FreindsGroup */ = {
+			isa = PBXGroup;
+			children = (
+				36E610852628092A00A934FB /* FreindsMain.storyboard */,
+				36E6108D26280C5300A934FB /* FreindsMainViewController.swift */,
+				3628331A262801B600586852 /* Freinds.storyboard */,
+				36E72AE92628289C007FD2FA /* FreindsViewController.swift */,
+				36E72AF12628297F007FD2FA /* FreindsMyProfileViewController.swift */,
+				3628331F2628021300586852 /* Chat.storyboard */,
+				36E72AD726281E7C007FD2FA /* HashTag.storyboard */,
+				36E72ADC26281E84007FD2FA /* Store.storyboard */,
+				36E72AE126281E90007FD2FA /* Setting.storyboard */,
+			);
+			path = FreindsGroup;
+			sourceTree = "<group>";
+		};
 		366FBC91261A1D9800D648C9 = {
 			isa = PBXGroup;
 			children = (
@@ -117,22 +141,18 @@
 		366FBC9C261A1D9800D648C9 /* Kakaotalk_Clone */ = {
 			isa = PBXGroup;
 			children = (
+				362833192628019900586852 /* FreindsGroup */,
 				36126F01261DCD38002535C6 /* AccountCorrectViewController.swift */,
 				366FBC9D261A1D9800D648C9 /* AppDelegate.swift */,
 				366FBC9F261A1D9800D648C9 /* SceneDelegate.swift */,
 				366FBCA1261A1D9800D648C9 /* ViewController.swift */,
 				36126F16261DCDD6002535C6 /* Main.storyboard */,
-				3680319D2626F6DD00C07E87 /* Freinds.storyboard */,
 				36126F0E261DCD4B002535C6 /* MainViewController.swift */,
 				36126F09261DCD42002535C6 /* AcoountViewController.swift */,
 				366FBCA6261A1D9800D648C9 /* Assets.xcassets */,
 				366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */,
 				366FBCAB261A1D9800D648C9 /* Info.plist */,
-				368031A22626F8AE00C07E87 /* Chat.storyboard */,
-				368031A72626F8B900C07E87 /* HashTag.storyboard */,
-				368031AC2626F8C500C07E87 /* Store.storyboard */,
-				368031B12626F8CF00C07E87 /* Setting.storyboard */,
-				368031B62626FBE100C07E87 /* FreindsViewController.swift */,
+				36E72AC3262819F1007FD2FA /* MainTabBarController.swift */,
 			);
 			path = Kakaotalk_Clone;
 			sourceTree = "<group>";
@@ -258,14 +278,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3680319E2626F6DD00C07E87 /* Freinds.storyboard in Resources */,
-				368031A82626F8B900C07E87 /* HashTag.storyboard in Resources */,
+				3628331B262801B600586852 /* Freinds.storyboard in Resources */,
 				366FBCAA261A1D9800D648C9 /* LaunchScreen.storyboard in Resources */,
 				366FBCA7261A1D9800D648C9 /* Assets.xcassets in Resources */,
-				368031A32626F8AE00C07E87 /* Chat.storyboard in Resources */,
-				368031AD2626F8C500C07E87 /* Store.storyboard in Resources */,
+				36E610862628092A00A934FB /* FreindsMain.storyboard in Resources */,
+				36E72ADD26281E84007FD2FA /* Store.storyboard in Resources */,
+				36E72AE226281E90007FD2FA /* Setting.storyboard in Resources */,
+				36E72AD826281E7C007FD2FA /* HashTag.storyboard in Resources */,
+				362833202628021300586852 /* Chat.storyboard in Resources */,
 				36126F17261DCDD6002535C6 /* Main.storyboard in Resources */,
-				368031B22626F8CF00C07E87 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E72AF22628297F007FD2FA /* FreindsMyProfileViewController.swift in Sources */,
 				36126F0F261DCD4B002535C6 /* MainViewController.swift in Sources */,
 				366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */,
+				36E72AEA2628289C007FD2FA /* FreindsViewController.swift in Sources */,
+				36E72AC4262819F1007FD2FA /* MainTabBarController.swift in Sources */,
 				36126F0A261DCD42002535C6 /* AcoountViewController.swift in Sources */,
-				368031B72626FBE100C07E87 /* FreindsViewController.swift in Sources */,
 				36126F02261DCD38002535C6 /* AccountCorrectViewController.swift in Sources */,
 				366FBC9E261A1D9800D648C9 /* AppDelegate.swift in Sources */,
 				366FBCA0261A1D9800D648C9 /* SceneDelegate.swift in Sources */,
+				36E6108E26280C5300A934FB /* FreindsMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

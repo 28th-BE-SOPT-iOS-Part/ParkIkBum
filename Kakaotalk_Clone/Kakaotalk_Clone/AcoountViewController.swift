@@ -7,6 +7,7 @@
 
 import UIKit
 class AcoountViewController: UIViewController {
+    let freindsStoryboard = UIStoryboard(name: "Freinds", bundle: nil)
     @IBOutlet weak var EmailOrPhoneNumber: UITextField!
     @IBOutlet weak var PassWordInput: UITextField!
     @IBOutlet weak var PasswordCorrect: UITextField!
@@ -23,9 +24,8 @@ class AcoountViewController: UIViewController {
         if EmailOrPhoneNumber.text != "" && PassWordInput.text != "" && PasswordCorrect.text != ""
         {
             if PassWordInput.text == PasswordCorrect.text{
-        guard let nextCreate = self.storyboard?.instantiateViewController(identifier: "AccountCorrectViewController")
-                as? AccountCorrectViewController else{return}
-        nextCreate.UsEmail = EmailOrPhoneNumber.text
+        guard let nextCreate = freindsStoryboard.instantiateViewController(identifier: "FreindsMainViewController")
+                as?FreindsMainViewController else{return}
         self.present(nextCreate, animated: true, completion: nil) //다음화면으로 넘어가기
         self.navigationController?.popViewController(animated: true) // 다음화면으로넘어가면서 pop시켜버리기
             }

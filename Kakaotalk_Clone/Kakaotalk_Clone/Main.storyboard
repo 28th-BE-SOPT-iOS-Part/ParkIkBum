@@ -152,7 +152,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <userGuides>
-                            <userLayoutGuide location="205" affinity="minY"/>
+                            <userLayoutGuide location="464" affinity="minY"/>
                         </userGuides>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="비밀번호" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mtO-eH-baU">
@@ -261,60 +261,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0bg-9v-gb4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1800" y="91.304347826086968"/>
-        </scene>
-        <!--Account Correct View Controller-->
-        <scene sceneID="0w8-8h-dPO">
-            <objects>
-                <viewController storyboardIdentifier="AccountCorrectViewController" id="qbh-WO-uhF" customClass="AccountCorrectViewController" customModule="Kakaotalk_Clone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="AccountCorrectVeiwController" id="8eD-xg-RcY" customClass="AccountCorrectVeiwController">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9O-uS-Jsw">
-                                <rect key="frame" x="20" y="144" width="350" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="가입이 완료되었습니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0W-oG-a29">
-                                <rect key="frame" x="20" y="149" width="350" height="29"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tez-nI-qr7">
-                                <rect key="frame" x="20" y="228" width="350" height="33"/>
-                                <color key="backgroundColor" red="1" green="0.97416807229811619" blue="0.36817568555109925" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="확인">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="Confirm:" destination="qbh-WO-uhF" eventType="touchUpInside" id="xbM-hS-Om5"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="IFw-3h-CJG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="tez-nI-qr7" secondAttribute="trailing" constant="20" id="3Oh-02-i91"/>
-                            <constraint firstItem="A9O-uS-Jsw" firstAttribute="leading" secondItem="IFw-3h-CJG" secondAttribute="leading" constant="20" id="5o1-YT-zKj"/>
-                            <constraint firstItem="tez-nI-qr7" firstAttribute="top" secondItem="x0W-oG-a29" secondAttribute="bottom" constant="50" id="Fft-ZT-rg7"/>
-                            <constraint firstItem="tez-nI-qr7" firstAttribute="leading" secondItem="IFw-3h-CJG" secondAttribute="leading" constant="20" id="M1r-om-kMX"/>
-                            <constraint firstItem="x0W-oG-a29" firstAttribute="leading" secondItem="IFw-3h-CJG" secondAttribute="leading" constant="20" id="QrP-jx-Kmz"/>
-                            <constraint firstItem="IFw-3h-CJG" firstAttribute="trailing" secondItem="x0W-oG-a29" secondAttribute="trailing" constant="20" id="k5M-Aa-GSU"/>
-                            <constraint firstItem="A9O-uS-Jsw" firstAttribute="top" secondItem="IFw-3h-CJG" secondAttribute="top" constant="100" id="pQE-06-ere"/>
-                            <constraint firstAttribute="trailing" secondItem="A9O-uS-Jsw" secondAttribute="trailing" constant="20" id="zS7-7F-REQ"/>
-                            <constraint firstItem="x0W-oG-a29" firstAttribute="top" secondItem="A9O-uS-Jsw" secondAttribute="bottom" constant="5" id="zXV-xM-mJb"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="UserEmail" destination="A9O-uS-Jsw" id="3co-Is-Lxx"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2zy-hr-Win" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="945" y="-588"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AVZ-SK-eSz">

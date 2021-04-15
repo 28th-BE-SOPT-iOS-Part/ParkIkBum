@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fdi-Yu-8lp">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -9,25 +9,25 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="cAY-Rv-RV5">
+        <scene sceneID="BaU-S7-qKK">
             <objects>
-                <viewController id="vjB-Hq-Afi" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zls-zs-vI6">
+                <viewController storyboardIdentifier="Setting" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fdi-Yu-8lp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eSA-Rt-B2X">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="ijK-Q7-BwT"/>
+                        <viewLayoutGuide key="safeArea" id="Y7B-Be-5RV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="message" catalog="system" id="UHK-Mo-vSw"/>
+                    <tabBarItem key="tabBarItem" title="" image="wave.3.right.circle.fill" catalog="system" id="TSZ-yn-8Yo"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ao5-k8-7Ub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t8X-Vr-5uJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="270" y="121"/>
+            <point key="canvasLocation" x="46" y="88"/>
         </scene>
     </scenes>
     <resources>
-        <image name="message" catalog="system" width="128" height="113"/>
+        <image name="wave.3.right.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
