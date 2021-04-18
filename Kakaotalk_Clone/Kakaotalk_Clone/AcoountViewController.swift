@@ -7,7 +7,7 @@
 
 import UIKit
 class AcoountViewController: UIViewController {
-    let freindsStoryboard = UIStoryboard(name: "Freinds", bundle: nil)
+    let freindsMainStoryboard = UIStoryboard(name: "FreindsMain", bundle: nil)
     @IBOutlet weak var EmailOrPhoneNumber: UITextField!
     @IBOutlet weak var PassWordInput: UITextField!
     @IBOutlet weak var PasswordCorrect: UITextField!
@@ -24,10 +24,9 @@ class AcoountViewController: UIViewController {
         if EmailOrPhoneNumber.text != "" && PassWordInput.text != "" && PasswordCorrect.text != ""
         {
             if PassWordInput.text == PasswordCorrect.text{
-        guard let nextCreate = freindsStoryboard.instantiateViewController(identifier: "FreindsMainViewController")
-                as?FreindsMainViewController else{return}
-        self.present(nextCreate, animated: true, completion: nil) //다음화면으로 넘어가기
-        self.navigationController?.popViewController(animated: true) // 다음화면으로넘어가면서 pop시켜버리기
+        guard let nextCreate = freindsMainStoryboard.instantiateViewController(identifier: "MainTabBarController")
+                as?MainTabBarController else{return}
+                self.navigationController?.pushViewController(nextCreate, animated: true)
             }
             else {
                 passwordNotCorrect.text = "비밀번호가 일치하지 않습니다."

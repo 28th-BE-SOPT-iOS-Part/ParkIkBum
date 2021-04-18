@@ -22,7 +22,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="792-b3-rRw">
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="myProfile" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="792-b3-rRw">
                                 <rect key="frame" x="13" y="98" width="59" height="58"/>
                                 <state key="normal" image="friendtabProfileImg"/>
                                 <connections>
@@ -50,8 +50,8 @@
         <!--Freinds My Profile View Controller-->
         <scene sceneID="jQV-3h-zaa">
             <objects>
-                <viewController storyboardIdentifier="FreindsMyProfileViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M4s-4d-ymG" customClass="FreindsMyProfileViewController" customModule="Kakaotalk_Clone" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NLq-P9-qXT">
+                <viewController storyboardIdentifier="FreindsMyProfileViewController" modalPresentationStyle="overFullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="M4s-4d-ymG" customClass="FreindsMyProfileViewController" customModule="Kakaotalk_Clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="FreindsUIView" id="NLq-P9-qXT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -59,7 +59,7 @@
                                 <rect key="frame" x="18" y="58" width="14" height="22"/>
                                 <state key="normal" image="profileCloseBtn"/>
                                 <connections>
-                                    <action selector="closeButton:" destination="M4s-4d-ymG" eventType="touchUpInside" id="Jec-va-t2N"/>
+                                    <action selector="closeButton:" destination="M4s-4d-ymG" eventType="touchUpInside" id="SgZ-jH-WR3"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jUc-Df-QuF">
@@ -73,15 +73,15 @@
                                                 <state key="normal" image="profileTalkImg"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="나와의 채팅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcM-zR-S0d">
-                                                <rect key="frame" x="0.0" y="48" width="96" height="12"/>
+                                                <rect key="frame" x="0.0" y="55" width="96" height="12"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="10"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="JcM-zR-S0d" firstAttribute="top" secondItem="aL4-YP-VOD" secondAttribute="top" constant="48" id="7jm-fu-a1q"/>
                                             <constraint firstAttribute="trailing" secondItem="0Db-w0-BF1" secondAttribute="trailing" constant="1" id="Jdd-9d-Fru"/>
+                                            <constraint firstItem="JcM-zR-S0d" firstAttribute="top" secondItem="aL4-YP-VOD" secondAttribute="top" constant="55" id="K1A-bN-n0e"/>
                                             <constraint firstAttribute="width" constant="96" id="MKd-Cb-McF"/>
                                             <constraint firstItem="0Db-w0-BF1" firstAttribute="leading" secondItem="aL4-YP-VOD" secondAttribute="leading" constant="1" id="S72-ST-xDV"/>
                                             <constraint firstAttribute="trailing" secondItem="JcM-zR-S0d" secondAttribute="trailing" id="h2v-WL-WU2"/>
@@ -99,7 +99,7 @@
                                                 <state key="normal" image="profileEditImg"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="프로필 편집" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yP-2k-Ygo">
-                                                <rect key="frame" x="0.0" y="48" width="96" height="12"/>
+                                                <rect key="frame" x="0.0" y="55" width="96" height="12"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="10"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -113,7 +113,7 @@
                                             <constraint firstItem="5yP-2k-Ygo" firstAttribute="leading" secondItem="ueX-AB-zh6" secondAttribute="leading" id="Vi0-kR-ytk"/>
                                             <constraint firstItem="6Em-Vh-MOz" firstAttribute="top" secondItem="ueX-AB-zh6" secondAttribute="top" constant="1" id="bDB-K4-PVA"/>
                                             <constraint firstItem="6Em-Vh-MOz" firstAttribute="leading" secondItem="ueX-AB-zh6" secondAttribute="leading" constant="1" id="daY-Gl-hYc"/>
-                                            <constraint firstItem="5yP-2k-Ygo" firstAttribute="top" secondItem="ueX-AB-zh6" secondAttribute="top" constant="48" id="r7u-iX-Ugy"/>
+                                            <constraint firstItem="5yP-2k-Ygo" firstAttribute="top" secondItem="ueX-AB-zh6" secondAttribute="top" constant="55" id="r7u-iX-Ugy"/>
                                             <constraint firstAttribute="width" constant="96" id="vNe-9q-2Ui"/>
                                         </constraints>
                                     </view>
@@ -125,14 +125,14 @@
                                                 <state key="normal" image="profileStoryImg"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="나와의 채팅" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvr-ER-We7">
-                                                <rect key="frame" x="0.0" y="48" width="96" height="12"/>
+                                                <rect key="frame" x="0.0" y="55" width="96" height="12"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="10"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="dvr-ER-We7" firstAttribute="top" secondItem="9ho-KL-EYp" secondAttribute="top" constant="48" id="009-sa-b2s"/>
+                                            <constraint firstItem="dvr-ER-We7" firstAttribute="top" secondItem="9ho-KL-EYp" secondAttribute="top" constant="55" id="009-sa-b2s"/>
                                             <constraint firstItem="e1M-Sg-vh6" firstAttribute="leading" secondItem="9ho-KL-EYp" secondAttribute="leading" constant="1" id="CZJ-BD-Etk"/>
                                             <constraint firstAttribute="height" constant="72" id="QXT-qN-K1w"/>
                                             <constraint firstItem="e1M-Sg-vh6" firstAttribute="top" secondItem="9ho-KL-EYp" secondAttribute="top" constant="1" id="Ryr-Rz-jha"/>
@@ -145,6 +145,7 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="bz4-i2-5Ai"/>
                                     <constraint firstAttribute="width" constant="288" id="sMx-2U-VP3"/>
                                 </constraints>
                             </stackView>
@@ -167,6 +168,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d3Y-HI-zfH"/>
                         <color key="backgroundColor" red="0.52941176470588236" green="0.56862745098039214" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="F0x-Fl-S0P" firstAttribute="leading" secondItem="NLq-P9-qXT" secondAttribute="leading" constant="1" id="6PV-kE-DYZ"/>
                             <constraint firstItem="F0x-Fl-S0P" firstAttribute="top" secondItem="DgY-iq-A2J" secondAttribute="bottom" constant="42" id="JIc-DF-HMt"/>

@@ -27,8 +27,6 @@ class MainViewController: UIViewController {
         }
         }
     @IBAction func NewAccount(_ sender: Any) {
-        print(EmailPhoneNumber.text)
-        print(PassWord.text)
         guard let nextNA = self.storyboard?.instantiateViewController(identifier: "AcoountViewController")
                 as? AcoountViewController else{return}
         self.navigationController?.pushViewController(nextNA, animated: true)

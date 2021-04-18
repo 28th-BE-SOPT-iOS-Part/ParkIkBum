@@ -18,7 +18,7 @@
                         <viewLayoutGuide key="safeArea" id="Y7B-Be-5RV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="wave.3.right.circle.fill" catalog="system" id="TSZ-yn-8Yo"/>
+                    <tabBarItem key="tabBarItem" title="" image="icons8-ellipsis-50" id="TSZ-yn-8Yo"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t8X-Vr-5uJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -27,7 +27,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="wave.3.right.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="icons8-ellipsis-50" width="50" height="50"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
