@@ -18,7 +18,7 @@
                         <viewLayoutGuide key="safeArea" id="veB-Zb-QdV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="hashTag" id="I8t-xv-6P5"/>
+                    <tabBarItem key="tabBarItem" title="" image="hashtag" id="I8t-xv-6P5"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xKM-ZS-Zlt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -27,7 +27,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hashTag" width="50" height="50"/>
+        <image name="hashtag" width="16" height="16"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
