@@ -15,8 +15,8 @@ class FreindsMyProfileViewController:
         self.dismiss(animated: true, completion: nil)
     }
     @objc func panGestureAction(_ panGesture: UIPanGestureRecognizer){
-        let translation = panGesture.translation(in: view)
-        if panGesture.state == .began{ // 터치한 후 좌표가 바뀌는 순간
+            let translation = panGesture.translation(in: view)
+            if panGesture.state == .began{ // 터치한 후 좌표가 바뀌는 순간
             originalPosition = view.center //원래 있던 위치
             currentPositionTouched = panGesture.location(in: view)
         }
