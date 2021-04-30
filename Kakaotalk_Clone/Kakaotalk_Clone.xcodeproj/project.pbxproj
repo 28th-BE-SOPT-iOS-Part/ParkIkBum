@@ -20,6 +20,9 @@
 		366FBCAA261A1D9800D648C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */; };
 		366FBCB5261A1D9800D648C9 /* Kakaotalk_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCB4261A1D9800D648C9 /* Kakaotalk_CloneTests.swift */; };
 		366FBCC0261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCBF261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift */; };
+		36E106E2263BC4BE006CEFCA /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E106E1263BC4BE006CEFCA /* FriendsTableViewCell.swift */; };
+		36E106EA263BC77D006CEFCA /* freindsDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E106E9263BC77D006CEFCA /* freindsDummy.swift */; };
+		36E106F2263BD83A006CEFCA /* FreindsProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E106F1263BD83A006CEFCA /* FreindsProfileViewController.swift */; };
 		36E610862628092A00A934FB /* FreindsMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E610852628092A00A934FB /* FreindsMain.storyboard */; };
 		36E6108E26280C5300A934FB /* FreindsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6108D26280C5300A934FB /* FreindsMainViewController.swift */; };
 		36E72AC4262819F1007FD2FA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E72AC3262819F1007FD2FA /* MainTabBarController.swift */; };
@@ -67,6 +70,9 @@
 		366FBCBB261A1D9800D648C9 /* Kakaotalk_CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kakaotalk_CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366FBCBF261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kakaotalk_CloneUITests.swift; sourceTree = "<group>"; };
 		366FBCC1261A1D9800D648C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E106E1263BC4BE006CEFCA /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		36E106E9263BC77D006CEFCA /* freindsDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freindsDummy.swift; sourceTree = "<group>"; };
+		36E106F1263BD83A006CEFCA /* FreindsProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsProfileViewController.swift; sourceTree = "<group>"; };
 		36E610852628092A00A934FB /* FreindsMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FreindsMain.storyboard; sourceTree = "<group>"; };
 		36E6108D26280C5300A934FB /* FreindsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsMainViewController.swift; sourceTree = "<group>"; };
 		36E72AC3262819F1007FD2FA /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -114,6 +120,9 @@
 				36E72AD726281E7C007FD2FA /* HashTag.storyboard */,
 				36E72ADC26281E84007FD2FA /* Store.storyboard */,
 				36E72AE126281E90007FD2FA /* Setting.storyboard */,
+				36E106E1263BC4BE006CEFCA /* FriendsTableViewCell.swift */,
+				36E106E9263BC77D006CEFCA /* freindsDummy.swift */,
+				36E106F1263BD83A006CEFCA /* FreindsProfileViewController.swift */,
 			);
 			path = FreindsGroup;
 			sourceTree = "<group>";
@@ -311,9 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E106EA263BC77D006CEFCA /* freindsDummy.swift in Sources */,
 				36E72AF22628297F007FD2FA /* FreindsMyProfileViewController.swift in Sources */,
 				36126F0F261DCD4B002535C6 /* MainViewController.swift in Sources */,
+				36E106F2263BD83A006CEFCA /* FreindsProfileViewController.swift in Sources */,
 				366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */,
+				36E106E2263BC4BE006CEFCA /* FriendsTableViewCell.swift in Sources */,
 				36E72AEA2628289C007FD2FA /* FreindsViewController.swift in Sources */,
 				36E72AC4262819F1007FD2FA /* MainTabBarController.swift in Sources */,
 				36126F0A261DCD42002535C6 /* AcoountViewController.swift in Sources */,
