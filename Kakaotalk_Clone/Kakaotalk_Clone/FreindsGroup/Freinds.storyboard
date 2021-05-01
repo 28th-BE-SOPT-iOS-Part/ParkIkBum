@@ -376,9 +376,6 @@
                                     <constraint firstAttribute="width" constant="288" id="hzW-3b-l7Q"/>
                                 </constraints>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileUserImg" translatesAutoresizingMaskIntoConstraints="NO" id="Snm-S9-oN5">
-                                <rect key="frame" x="139" y="561" width="136" height="96"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9R-Ad-xIW">
                                 <rect key="frame" x="164" y="665" width="86" height="22"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="18"/>
@@ -398,12 +395,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileUserImg" translatesAutoresizingMaskIntoConstraints="NO" id="Snm-S9-oN5">
+                                <rect key="frame" x="159" y="561" width="97" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="5GA-g9-NHv"/>
+                                    <constraint firstAttribute="width" constant="97" id="xUt-H5-BaL"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NHV-KN-T1R"/>
                         <color key="backgroundColor" red="0.52941176469999995" green="0.56862745100000001" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="G9R-Ad-xIW" firstAttribute="top" secondItem="Snm-S9-oN5" secondAttribute="bottom" constant="8" id="07d-vD-8hN"/>
                             <constraint firstItem="vFA-6i-I70" firstAttribute="top" secondItem="G9R-Ad-xIW" secondAttribute="bottom" constant="42" id="0mN-Hd-aGp"/>
                             <constraint firstItem="0jC-T8-NQh" firstAttribute="leading" secondItem="NHV-KN-T1R" secondAttribute="leading" constant="60" id="5t3-Am-NwP"/>
                             <constraint firstItem="vFA-6i-I70" firstAttribute="top" secondItem="0jC-T8-NQh" secondAttribute="bottom" constant="20" id="7Jh-yr-CXg"/>
@@ -411,14 +414,15 @@
                             <constraint firstItem="NHV-KN-T1R" firstAttribute="bottom" secondItem="uAO-9u-8GS" secondAttribute="bottom" constant="47" id="K5i-g8-jI9"/>
                             <constraint firstItem="MSe-bC-GVo" firstAttribute="leading" secondItem="NHV-KN-T1R" secondAttribute="leading" constant="18" id="Kot-ub-t69"/>
                             <constraint firstItem="G9R-Ad-xIW" firstAttribute="leading" secondItem="NHV-KN-T1R" secondAttribute="leading" constant="164" id="KrN-Uh-JYY"/>
-                            <constraint firstItem="NHV-KN-T1R" firstAttribute="trailing" secondItem="Snm-S9-oN5" secondAttribute="trailing" constant="139" id="Lh3-lJ-HHf"/>
                             <constraint firstItem="NHV-KN-T1R" firstAttribute="trailing" secondItem="uAO-9u-8GS" secondAttribute="trailing" constant="63" id="MlF-aN-JZL"/>
                             <constraint firstItem="NHV-KN-T1R" firstAttribute="trailing" secondItem="0jC-T8-NQh" secondAttribute="trailing" constant="60" id="NE1-xB-tVi"/>
                             <constraint firstAttribute="trailing" secondItem="vFA-6i-I70" secondAttribute="trailing" constant="1" id="TPd-CD-iQs"/>
+                            <constraint firstItem="NHV-KN-T1R" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Snm-S9-oN5" secondAttribute="trailing" constant="158" id="UK1-E2-s2A"/>
+                            <constraint firstItem="Snm-S9-oN5" firstAttribute="leading" relation="lessThanOrEqual" secondItem="NHV-KN-T1R" secondAttribute="leading" constant="159" id="W5P-P0-nTE"/>
                             <constraint firstItem="uAO-9u-8GS" firstAttribute="top" secondItem="vFA-6i-I70" secondAttribute="bottom" constant="13" id="YUy-0B-Mlx"/>
+                            <constraint firstItem="NHV-KN-T1R" firstAttribute="bottom" secondItem="Snm-S9-oN5" secondAttribute="bottom" constant="205" id="bXG-dG-lx5"/>
                             <constraint firstItem="MSe-bC-GVo" firstAttribute="top" secondItem="NHV-KN-T1R" secondAttribute="top" constant="14" id="cxn-9l-vtO"/>
                             <constraint firstItem="vFA-6i-I70" firstAttribute="leading" secondItem="FO0-hX-Dhk" secondAttribute="leading" constant="1" id="hKA-Nx-Ed4"/>
-                            <constraint firstItem="Snm-S9-oN5" firstAttribute="leading" secondItem="NHV-KN-T1R" secondAttribute="leading" constant="139" id="jPI-58-J93"/>
                             <constraint firstItem="NHV-KN-T1R" firstAttribute="trailing" secondItem="G9R-Ad-xIW" secondAttribute="trailing" constant="164" id="xlH-v9-LN2"/>
                         </constraints>
                     </view>
