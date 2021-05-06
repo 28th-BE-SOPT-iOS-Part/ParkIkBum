@@ -15,5 +15,9 @@ struct FriendDataModel
     var state : String
 }
 
-
+struct SettingDataModel {
+    var imageName : String
+    var name : String
+    
+}
 
