@@ -19,6 +19,36 @@ class FreindsViewController: UIViewController {
         friendsTableView.separatorStyle = .none
         // Do any additional setup after loading the view.
     }
+    @IBAction func settingButtonClicked(_ sender: Any) {
+        let actionSheet = UIAlertController(title: .none, message: .none, preferredStyle: .actionSheet)
+           actionSheet.addAction(UIAlertAction(title: "편집", style: .default, handler: {(ACTION:UIAlertAction) in
+           }))
+           
+           actionSheet.addAction(UIAlertAction(title: "친구관리", style: .default, handler: {(ACTION:UIAlertAction) in
+           }))
+        actionSheet.addAction(UIAlertAction(title: "전체설정", style: .default, handler: {(ACTION:UIAlertAction) in }))
+        
+           actionSheet.addAction(UIAlertAction(title: "취소", style: .cancel, handler: nil))
+           self.present(actionSheet, animated: true, completion: nil)
+
+        
+    }
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let deleteAction = UIContextualAction(style: .normal, title: "차단", handler: { action, view, completionHaldler in
+            self.friendList.remove(at: indexPath.row)
+            self.friendsTableView.reloadData()
+            completionHaldler(true)
+        })
+        deleteAction.backgroundColor = UIColor(red: 207/255, green:98/255, blue: 58/255, alpha: 1)
+        let hideAction = UIContextualAction(style: .normal, title: "숨김", handler: { action, view, completionHaldler in
+            self.friendList.remove(at: indexPath.row)
+            self.friendsTableView.reloadData()
+            completionHaldler(true)
+        })
+        hideAction.backgroundColor = UIColor(red: 103/255, green: 107/255, blue: 114/255, alpha: 1)
+        return UISwipeActionsConfiguration(actions: [deleteAction, hideAction])
+    }
+
     
     @IBAction func myProfile(_ sender: Any) {
         guard let myPf = self.storyboard?.instantiateViewController(identifier: "FreindsMyProfileViewController")
