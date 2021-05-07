@@ -5,7 +5,7 @@
 |------|---|---|
 |1주차|iOS기초, H.I.G 화면전환|[📝](https://github.com/28th-BE-SOPT-iOS-Part/ParkIkBum/blob/main/Readme/Week1.md)|
 |2주차|AutoLayout, ScrollView|[📝💻](https://github.com/28th-BE-SOPT-iOS-Part/ParkIkBum/blob/main/Readme/Week2.md)|
-|3주차|TableView, CollectionView, 데이터 전달방식||
+|3주차|TableView, CollectionView, 데이터 전달방식|[📝💻](https://github.com/28th-BE-SOPT-iOS-Part/ParkIkBum/blob/main/Readme/Week3.md)|
 |4주차|Cocoapods Networking||
 |5주차|디자인 합동 세미나||
 |6주차|서버합동세미나||
