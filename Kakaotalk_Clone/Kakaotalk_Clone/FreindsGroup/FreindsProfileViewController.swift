@@ -4,7 +4,7 @@ class FreindsProfileViewController: UIViewController {
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var profileName: UILabel!
     @IBOutlet weak var profileState: UILabel!
-    
+
     
     var userProfileName : String = ""
     var userProfileImage : String = ""
