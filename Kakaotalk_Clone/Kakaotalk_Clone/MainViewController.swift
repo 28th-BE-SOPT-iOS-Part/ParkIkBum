@@ -31,4 +31,6 @@ class MainViewController: UIViewController {
                 as? AcoountViewController else{return}
         self.navigationController?.pushViewController(nextNA, animated: true)
         }
+    
+    
 }
