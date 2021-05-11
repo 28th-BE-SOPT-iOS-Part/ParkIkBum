@@ -22,6 +22,8 @@
 		366FBCC0261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FBCBF261A1D9800D648C9 /* Kakaotalk_CloneUITests.swift */; };
 		36910BAD264920AB00986E34 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36910BAC264920AB00986E34 /* NetworkResult.swift */; };
 		36910BB2264920FC00986E34 /* LoginDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36910BB1264920FC00986E34 /* LoginDataModel.swift */; };
+		36910BB7264924E600986E34 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36910BB6264924E600986E34 /* LoginService.swift */; };
+		36910BBC2649254D00986E34 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36910BBB2649254D00986E34 /* APIConstants.swift */; };
 		36E106E2263BC4BE006CEFCA /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E106E1263BC4BE006CEFCA /* FriendsTableViewCell.swift */; };
 		36E106EA263BC77D006CEFCA /* freindsDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E106E9263BC77D006CEFCA /* freindsDummy.swift */; };
 		36E106F2263BD83A006CEFCA /* FreindsProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E106F1263BD83A006CEFCA /* FreindsProfileViewController.swift */; };
@@ -80,6 +82,8 @@
 		366FBCC1261A1D9800D648C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36910BAC264920AB00986E34 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
 		36910BB1264920FC00986E34 /* LoginDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataModel.swift; sourceTree = "<group>"; };
+		36910BB6264924E600986E34 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		36910BBB2649254D00986E34 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		36E106E1263BC4BE006CEFCA /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		36E106E9263BC77D006CEFCA /* freindsDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freindsDummy.swift; sourceTree = "<group>"; };
 		36E106F1263BD83A006CEFCA /* FreindsProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreindsProfileViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +195,8 @@
 				36E72AC3262819F1007FD2FA /* MainTabBarController.swift */,
 				36910BAC264920AB00986E34 /* NetworkResult.swift */,
 				36910BB1264920FC00986E34 /* LoginDataModel.swift */,
+				36910BB6264924E600986E34 /* LoginService.swift */,
+				36910BBB2649254D00986E34 /* APIConstants.swift */,
 			);
 			path = Kakaotalk_Clone;
 			sourceTree = "<group>";
@@ -485,6 +491,7 @@
 				36126F0F261DCD4B002535C6 /* MainViewController.swift in Sources */,
 				36E106F2263BD83A006CEFCA /* FreindsProfileViewController.swift in Sources */,
 				366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */,
+				36910BBC2649254D00986E34 /* APIConstants.swift in Sources */,
 				36E5B41D26445BE10079170F /* SettingViewController.swift in Sources */,
 				36E106E2263BC4BE006CEFCA /* FriendsTableViewCell.swift in Sources */,
 				36910BAD264920AB00986E34 /* NetworkResult.swift in Sources */,
@@ -493,6 +500,7 @@
 				36126F0A261DCD42002535C6 /* AcoountViewController.swift in Sources */,
 				36E5B42226445C230079170F /* SettingCollectionViewCell.swift in Sources */,
 				36910BB2264920FC00986E34 /* LoginDataModel.swift in Sources */,
+				36910BB7264924E600986E34 /* LoginService.swift in Sources */,
 				36126F02261DCD38002535C6 /* AccountCorrectViewController.swift in Sources */,
 				366FBC9E261A1D9800D648C9 /* AppDelegate.swift in Sources */,
 				366FBCA0261A1D9800D648C9 /* SceneDelegate.swift in Sources */,
