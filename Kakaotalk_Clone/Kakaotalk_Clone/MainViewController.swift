@@ -28,17 +28,14 @@ class MainViewController: UIViewController {
         }
         }
     func loginAction()
-       {
+    { guard let freindsVC = freindsMainStoryboard.instantiateViewController(identifier: "MainTabBarController") as? MainTabBarController else {return}
         LoginService.shared.login(email: self.EmailPhoneNumber.text!, password: self.PassWord.text!) { result in
                switch result
                {
                case .success(let message):
-                   
                    if let message = message as? String{
-                       
                        self.makeAlert(title: "알림",
-                                      message: message)
-
+                                      message: message, okAction: {_ in self.navigationController?.pushViewController(freindsVC, animated: true);print("okaction")})
                    }
                    
                case .requestErr(let message):

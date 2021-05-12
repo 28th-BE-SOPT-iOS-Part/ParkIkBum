@@ -24,9 +24,7 @@ class AcoountViewController: UIViewController {
         if EmailOrPhoneNumber.text != "" && PassWordInput.text != "" && PasswordCorrect.text != ""
         {
             if PassWordInput.text == PasswordCorrect.text{
-        guard let nextCreate = freindsMainStoryboard.instantiateViewController(identifier: "MainTabBarController")
-                as?MainTabBarController else{return}
-                self.navigationController?.pushViewController(nextCreate, animated: true)
+                self.signupAction()
             }
             else {
                 passwordNotCorrect.text = "비밀번호가 일치하지 않습니다."
@@ -37,4 +35,30 @@ class AcoountViewController: UIViewController {
             passwordNotCorrect.text = "모두 입력해주세요."
         }
     }
+    
+    func signupAction()
+    {
+        SignupService.shared.signup(email: self.EmailOrPhoneNumber.text!, password: self.PassWordInput.text!, sex: "0", nickname: "앙뇽", phone: "0100001111", birth: "19990627"){ result in
+               switch result
+               {case .success(let message):
+                   if let message = message as? String{
+                       self.makeAlert(title: "알림",
+                                      message: message)
+                   }
+                   
+               case .requestErr(let message):
+                   
+                   if let message = message as? String{
+                       
+                       self.makeAlert(title: "알림",
+                                 message: message)
+                   }
+               default :
+                   print("ERROR")
+               }
+           }
+       }
+    
 }
+
+

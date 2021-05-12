@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360C2348264BB23F00AEE50C /* SignupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C2347264BB23F00AEE50C /* SignupService.swift */; };
+		360C234D264BB29C00AEE50C /* signupDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C234C264BB29C00AEE50C /* signupDataModel.swift */; };
 		36126F02261DCD38002535C6 /* AccountCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36126F01261DCD38002535C6 /* AccountCorrectViewController.swift */; };
 		36126F0A261DCD42002535C6 /* AcoountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36126F09261DCD42002535C6 /* AcoountViewController.swift */; };
 		36126F0F261DCD4B002535C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36126F0E261DCD4B002535C6 /* MainViewController.swift */; };
@@ -61,6 +63,8 @@
 
 /* Begin PBXFileReference section */
 		358189E438F6C082246239CD /* Pods_Kakaotalk_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kakaotalk_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		360C2347264BB23F00AEE50C /* SignupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupService.swift; sourceTree = "<group>"; };
+		360C234C264BB29C00AEE50C /* signupDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupDataModel.swift; sourceTree = "<group>"; };
 		36126F01261DCD38002535C6 /* AccountCorrectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCorrectViewController.swift; sourceTree = "<group>"; };
 		36126F09261DCD42002535C6 /* AcoountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcoountViewController.swift; sourceTree = "<group>"; };
 		36126F0E261DCD4B002535C6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +139,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360C233E264BB20300AEE50C /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				36910BBB2649254D00986E34 /* APIConstants.swift */,
+				36910BB6264924E600986E34 /* LoginService.swift */,
+				36910BB1264920FC00986E34 /* LoginDataModel.swift */,
+				36910BAC264920AB00986E34 /* NetworkResult.swift */,
+				360C2347264BB23F00AEE50C /* SignupService.swift */,
+				360C234C264BB29C00AEE50C /* signupDataModel.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
 		362833192628019900586852 /* FreindsGroup */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,10 +210,7 @@
 				366FBCA8261A1D9800D648C9 /* LaunchScreen.storyboard */,
 				366FBCAB261A1D9800D648C9 /* Info.plist */,
 				36E72AC3262819F1007FD2FA /* MainTabBarController.swift */,
-				36910BAC264920AB00986E34 /* NetworkResult.swift */,
-				36910BB1264920FC00986E34 /* LoginDataModel.swift */,
-				36910BB6264924E600986E34 /* LoginService.swift */,
-				36910BBB2649254D00986E34 /* APIConstants.swift */,
+				360C233E264BB20300AEE50C /* Server */,
 			);
 			path = Kakaotalk_Clone;
 			sourceTree = "<group>";
@@ -493,12 +507,14 @@
 				366FBCA2261A1D9800D648C9 /* ViewController.swift in Sources */,
 				36910BBC2649254D00986E34 /* APIConstants.swift in Sources */,
 				36E5B41D26445BE10079170F /* SettingViewController.swift in Sources */,
+				360C234D264BB29C00AEE50C /* signupDataModel.swift in Sources */,
 				36E106E2263BC4BE006CEFCA /* FriendsTableViewCell.swift in Sources */,
 				36910BAD264920AB00986E34 /* NetworkResult.swift in Sources */,
 				36E72AEA2628289C007FD2FA /* FreindsViewController.swift in Sources */,
 				36E72AC4262819F1007FD2FA /* MainTabBarController.swift in Sources */,
 				36126F0A261DCD42002535C6 /* AcoountViewController.swift in Sources */,
 				36E5B42226445C230079170F /* SettingCollectionViewCell.swift in Sources */,
+				360C2348264BB23F00AEE50C /* SignupService.swift in Sources */,
 				36910BB2264920FC00986E34 /* LoginDataModel.swift in Sources */,
 				36910BB7264924E600986E34 /* LoginService.swift in Sources */,
 				36126F02261DCD38002535C6 /* AccountCorrectViewController.swift in Sources */,
